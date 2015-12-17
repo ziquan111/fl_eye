@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/src/main/assets" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/src/release/assets" />
+    </dataSet>
+
+</merger>

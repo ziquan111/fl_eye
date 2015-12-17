@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_dark">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="896dp"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:id="@+id/header" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Gallery" />
+
+            <!--<org.ros.android.view.RosTextView-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+                <!--android:text="Battery : -1%"-->
+                <!--android:id="@+id/rosTextView_batteryPercent"-->
+                <!--android:layout_alignParentRight="true" />-->
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="66dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/footer">
+
+            <ImageButton
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:id="@+id/rosImageView_controlMode"
+                android:src="@drawable/ic_launcher"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"
+                android:clickable="true"
+                android:onClick="controlModeClicked"
+                android:layout_alignParentLeft="true" />
+
+            <org.ros.android.view.RosButton
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/button_takeoff_land_emergency"
+                android:background="@android:color/transparent"
+                android:layout_toRightOf="@id/rosImageView_controlMode" />
+
+            <!--<ImageButton-->
+                <!--android:layout_width="66dp"-->
+                <!--android:layout_height="66dp"-->
+                <!--android:id="@+id/button_shoot"-->
+                <!--android:src="@drawable/shoot_120x120"-->
+                <!--android:background="@android:color/transparent"-->
+                <!--android:onClick="shootButtonClicked"-->
+                <!--android:layout_centerInParent="true" />-->
+
+            <!--<org.ros.android.view.RosButton-->
+                <!--style="?android:attr/buttonStyleSmall"-->
+                <!--android:layout_width="66dp"-->
+                <!--android:layout_height="66dp"-->
+                <!--android:text="START"-->
+                <!--android:id="@+id/button_start_pause_resume"-->
+                <!--android:background="@color/green"-->
+                <!--android:layout_alignParentRight="true" />-->
+
+        </RelativeLayout>
+
+
+        <GridView
+            android:layout_width="896dp"
+            android:layout_height="504dp"
+            android:id="@+id/gridView"
+            android:numColumns="4"
+            android:layout_below="@+id/header"
+            android:layout_above="@+id/footer" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ros_java.ardrone_ui.test">
+
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="19" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="ros_java.ardrone_ui"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for ros_java.ardrone_ui"/>
+</manifest>

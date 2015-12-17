@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_core/apache_xmlrpc_client/0.1.6/apache_xmlrpc_client-0.1.6.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="2c0891e6c1e3ff1003ac2aed0a437a5b8c8ca1af">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/apache_xmlrpc_client-0.1.6-93632873b613c81eadfbfc8ff3eebacf0af55d57.jar" />
+    </item>
+    <item
+        jar="/home/ziquan/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.io/1.4.0/51097cd000ec88214ff181c9f059947de1cf4a35/com.springsource.org.apache.commons.io-1.4.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="51097cd000ec88214ff181c9f059947de1cf4a35">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.io-1.4.0-22125027f05535d92645358c58ee3080ffaa890f.jar" />
+    </item>
+    <item
+        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_messages/nav_msgs/1.10.6/nav_msgs-1.10.6.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="26da44b8849c6ee254b6b10d1bf13b33ffb78446">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/nav_msgs-1.10.6-f5f9ff8124cb26d380bb7dea12a9e1acabb6236e.jar" />
+    </item>
+    <item
+        jar="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="0dcc55e70f7ebf7238fe2ec53f662eb378ab2668">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-05c1beef9e14b1ee01c03a402ceaa2d9a5cfc8d1.jar" />
+    </item>
+    <item
+        jar="/home/ziquan/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/12.0/5bc66dd95b79db1e437eb08adba124a3e4088dc0/guava-12.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5bc66dd95b79db1e437eb08adba124a3e4088dc0">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/guava-12.0-5af18a4c4a1e757586593c9f266cba9b0954732a.jar" />
+    </item>
+    <item
+        jar="/home/ziquan/.gradle/caches/modules-2/files-2.1/commons-pool/commons-pool/1.6/4572d589699f09d866a226a14b7f4323c6d8f040/commons-pool-1.6.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4572d589699f09d866a226a14b7f4323c6d8f040">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/commons-pool-1.6-1afa449f26b03a76790c47a02eb47ecca8d37b33.jar" />
+    </item>
+    <item
+        jar="/home/ziquan/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.net/2.0.0/3e78766072ff5a5cf3f5431d973c430c94ec612/com.springsource.org.apache.commons.net-2.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="03e78766072ff5a5cf3f5431d973c430c94ec612">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.net-2.0.0-233d9e6247924021e1ddc16aaa31e0f4d5455a80.jar" />
+    </item>
+    <item
+        jar="/home/ziquan/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/jsr305-1.3.9-8913cf27b62f5b45f02d46cff18d2e0f5d06418e.jar" />
+    </item>
+    <item
+        jar="/home/ziquan/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.logging/1.1.1/7657caf2c78e1d79c74d36f2ae128a115f7cc180/com.springsource.org.apache.commons.logging-1.1.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="7657caf2c78e1d79c74d36f2ae128a115f7cc180">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.logging-1.1.1-0d8a8781b703f1bf49300f99cafd4ae4b1fbacd7.jar" />
+    </item>
+    <item
+        jar="/home/ziquan/.gradle/caches/modules-2/files-2.1/dnsjava/dnsjava/2.1.1/5708df81cf6dbff545695f0be6380b7bbc85accc/dnsjava-2.1.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5708df81cf6dbff545695f0be6380b7bbc85accc">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/dnsjava-2.1.1-7d90699d0a5a2f57a7a4f5b6226d7510fe17d2fb.jar" />
+    </item>
+    <item
+        jar="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/exploded-aar/com.github.rosjava.fl_eye/android_gingerbread_mr1/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="a8677043da053767598fa96b65cd5379217f4535">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/classes-abc4deb63767589fee603990560036afadcec2f0.jar" />
+    </item>
+    <item
+        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_core/apache_xmlrpc_common/0.1.6/apache_xmlrpc_common-0.1.6.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="22091c69e34703ef1f830d49e6ad91e081a7d061">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/apache_xmlrpc_common-0.1.6-f950d3dee8c4bee46bdf880d852f8093469d7fe6.jar" />
+    </item>
+    <item
+        jar="/home/ziquan/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_bootstrap/gradle_plugins/0.2.1/dbfb3bf8b676776e901aa63f02c6d59cf34d594b/gradle_plugins-0.2.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="dbfb3bf8b676776e901aa63f02c6d59cf34d594b">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/gradle_plugins-0.2.1-75494772f3e42b2b1174a07d4f6cd174ea64ef72.jar" />
+    </item>
+    <item
+        jar="/home/ziquan/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.httpclient/3.1.0/c493a925a091ac3d8f449d9265fe12482dabb2a7/com.springsource.org.apache.commons.httpclient-3.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="c493a925a091ac3d8f449d9265fe12482dabb2a7">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.httpclient-3.1.0-cc57e154674a757f256ffa987fd0edb9d5d32d2d.jar" />
+    </item>
+    <item
+        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_messages/actionlib_msgs/1.10.6/actionlib_msgs-1.10.6.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="d206e186d6ad573ae7fbb622d86a0d7c23b2f4d1">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/actionlib_msgs-1.10.6-e932042de1e4ab55bd9a92bb4b614b7fb28ef317.jar" />
+    </item>
+    <item
+        jar="/home/ziquan/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-dae209eef83d070e664c10077a240025095ebb24.jar" />
+    </item>
+    <item
+        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_messages/std_msgs/0.5.8/std_msgs-0.5.8.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="37a172ca6668dcae930000d353a3a556f5f7f968">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/std_msgs-0.5.8-1a86c0693edb7fe9169f87c0dd258364aeb974d6.jar" />
+    </item>
+    <item
+        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_messages/tf2_msgs/0.4.12/tf2_msgs-0.4.12.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="216e4cb4882ec92accd0eb445df0f5e0a5586cd4">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/tf2_msgs-0.4.12-c29e70fcdc368d8958ae4b6481bb01907fcef893.jar" />
+    </item>
+    <item
+        jar="/home/ziquan/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.5.2.Final/e6fb74a0699abe108969b2ec1f269391169a0426/netty-3.5.2.Final.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e6fb74a0699abe108969b2ec1f269391169a0426">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/netty-3.5.2.Final-f95f2c28db567d49c6e70477699f5f84112a0e71.jar" />
+    </item>
+    <item
+        jar="/home/ziquan/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_bootstrap/message_generation/0.2.1/20f5b0dbfa272bc8d37c5e3795bc9dfbf58e0a57/message_generation-0.2.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="20f5b0dbfa272bc8d37c5e3795bc9dfbf58e0a57">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/message_generation-0.2.1-15e6f2b5b8c13e933633b50ce8e3737a1f8e841a.jar" />
+    </item>
+    <item
+        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_core/apache_xmlrpc_server/0.1.6/apache_xmlrpc_server-0.1.6.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f94fe7815201179a3d3fef3c3c230517e8a241c0">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/apache_xmlrpc_server-0.1.6-f9071debb096750784afba41c048d2eddb02ba50.jar" />
+    </item>
+    <item
+        jar="/home/ziquan/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.lang/2.4.0/686e3713650c8e3a5d98723b4d3e239586bf9822/com.springsource.org.apache.commons.lang-2.4.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="686e3713650c8e3a5d98723b4d3e239586bf9822">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.lang-2.4.0-49059370ee246de461790d32b20f435de3e98cca.jar" />
+    </item>
+    <item
+        jar="/home/ziquan/.gradle/caches/modules-2/files-2.1/junit/junit/3.8.2/7e4cde26b53a9a0e3fe5b00d1dbbc7cc1d46060/junit-3.8.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="07e4cde26b53a9a0e3fe5b00d1dbbc7cc1d46060">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/junit-3.8.2-b2e63e73d4db30c56a639bc346fa05d1927fd0a0.jar" />
+    </item>
+    <item
+        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_messages/rosjava_test_msgs/0.1.27/rosjava_test_msgs-0.1.27.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3b56c8cb68f4ec089ea5d8bf040c833b48d86eeb">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/rosjava_test_msgs-0.1.27-eab988e4457f890c0529216b9a7bfb7eff9c4205.jar" />
+    </item>
+    <item
+        jar="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="2c2071dcaf7a008c3b01a6381a33be55396bab09">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/classes-b8fc61c6083feaa4276ed6cbff628ddacbe0dc72.jar" />
+    </item>
+    <item
+        jar="/home/ziquan/.gradle/caches/modules-2/files-2.1/org.apache.ws.commons/ws-commons-util/1.0.1/126e80ff798fece634bc94e61f8be8a8da00be60/ws-commons-util-1.0.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="126e80ff798fece634bc94e61f8be8a8da00be60">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/ws-commons-util-1.0.1-66e7c387bae4eaaeb8d5f1755f1d0a6c73f54eed.jar" />
+    </item>
+    <item
+        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_core/rosjava/0.1.6/rosjava-0.1.6.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="76a192c439a0a3c32c920ac0c5317ef3330ce0b9">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/rosjava-0.1.6-906acd8f648f56d91c83d970a898fd3f259e1849.jar" />
+    </item>
+    <item
+        jar="/home/ziquan/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.codec/1.3.0/f8690570eb0913d750262bb4223eed30b0d619ed/com.springsource.org.apache.commons.codec-1.3.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f8690570eb0913d750262bb4223eed30b0d619ed">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.codec-1.3.0-78a0f23a56d7bcded6f934de29efc329b64c3886.jar" />
+    </item>
+    <item
+        jar="/home/ziquan/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/rosgraph_msgs/1.9.50/5bda692b5f32449d109eb8ac74cc77a23ff78dc7/rosgraph_msgs-1.9.50.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5bda692b5f32449d109eb8ac74cc77a23ff78dc7">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/rosgraph_msgs-1.9.50-a67685827213221d9bd79b095971e7cb753f1595.jar" />
+    </item>
+    <item
+        jar="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/classes-e9ba961d2fac5b891290e9869dce3a8eb319b06a.jar" />
+    </item>
+    <item
+        jar="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-ec7a088c784d1b76f32a04b80b237b133650ab0d.jar" />
+    </item>
+    <item
+        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_messages/geometry_msgs/1.10.6/geometry_msgs-1.10.6.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9d5fb8ac8bdca85108309dca4c6de096b6c3c724">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/geometry_msgs-1.10.6-b087538195ce1152e4bf57c7115d6dc0b29cdc7b.jar" />
+    </item>
+    <item
+        jar="/opt/ros/hydro/share/maven/org/ros/rosjava_messages/sensor_msgs/1.10.6/sensor_msgs-1.10.6.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b982f294676e4c863cb5fcaf65aa373dfae6d3c4">
+        <dex dex="/home/ziquan/catkin_ws/src/fl_eye/fl_eye/build/intermediates/pre-dexed/debug/sensor_msgs-1.10.6-e904f11827c01bf8de8313cc15ebc78790e3bd1d.jar" />
+    </item>
+
+</items>

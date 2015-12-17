@@ -1,0 +1,107 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:7
+	android:versionName
+		ADDED from AndroidManifest.xml:5:7
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:7
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+MERGED from com.github.rosjava.fl_eye:android_gingerbread_mr1:0.1.0:7:5
+MERGED from com.android.support:support-v13:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:7:15
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:9:5
+	android:name
+		ADDED from AndroidManifest.xml:9:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:10:5
+MERGED from com.github.rosjava.fl_eye:android_gingerbread_mr1:0.1.0:12:5
+	android:name
+		ADDED from AndroidManifest.xml:10:22
+application
+ADDED from AndroidManifest.xml:12:5
+MERGED from com.github.rosjava.fl_eye:android_gingerbread_mr1:0.1.0:14:5
+MERGED from com.android.support:support-v13:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+	android:label
+		ADDED from AndroidManifest.xml:14:9
+	android:icon
+		ADDED from AndroidManifest.xml:13:9
+	android:hardwareAccelerated
+		ADDED from AndroidManifest.xml:15:9
+activity#ros_java.ardrone_ui.MainActivity
+ADDED from AndroidManifest.xml:17:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:21:13
+	android:label
+		ADDED from AndroidManifest.xml:20:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:19:13
+	android:name
+		ADDED from AndroidManifest.xml:18:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:24:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:25:17
+	android:name
+		ADDED from AndroidManifest.xml:25:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:27:17
+	android:name
+		ADDED from AndroidManifest.xml:27:27
+activity#ros_java.ardrone_ui.GalleryActivity
+ADDED from AndroidManifest.xml:30:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:32:13
+	android:name
+		ADDED from AndroidManifest.xml:31:13
+activity#ros_java.ardrone_ui.PhotoActivity
+ADDED from AndroidManifest.xml:35:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:37:13
+	android:name
+		ADDED from AndroidManifest.xml:36:13
+activity#org.ros.android.MasterChooser
+ADDED from AndroidManifest.xml:42:9
+	android:name
+		ADDED from AndroidManifest.xml:42:19
+service#org.ros.android.NodeMainExecutorService
+ADDED from AndroidManifest.xml:44:9
+MERGED from com.github.rosjava.fl_eye:android_gingerbread_mr1:0.1.0:22:9
+	android:name
+		ADDED from AndroidManifest.xml:44:18
+intent-filter#org.ros.android.NodeMainExecutorService
+ADDED from AndroidManifest.xml:45:13
+action#org.ros.android.NodeMainExecutorService
+ADDED from AndroidManifest.xml:46:17
+	android:name
+		ADDED from AndroidManifest.xml:46:25
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from com.github.rosjava.fl_eye:android_gingerbread_mr1:0.1.0:9:5
+	android:name
+		ADDED from com.github.rosjava.fl_eye:android_gingerbread_mr1:0.1.0:9:22
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from com.github.rosjava.fl_eye:android_gingerbread_mr1:0.1.0:10:5
+	android:name
+		ADDED from com.github.rosjava.fl_eye:android_gingerbread_mr1:0.1.0:10:22
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from com.github.rosjava.fl_eye:android_gingerbread_mr1:0.1.0:11:5
+	android:name
+		ADDED from com.github.rosjava.fl_eye:android_gingerbread_mr1:0.1.0:11:22
+activity#org.ros.android.android_gingerbread_mr1.MasterChooser
+ADDED from com.github.rosjava.fl_eye:android_gingerbread_mr1:0.1.0:17:9
+	android:label
+		ADDED from com.github.rosjava.fl_eye:android_gingerbread_mr1:0.1.0:19:13
+	android:name
+		ADDED from com.github.rosjava.fl_eye:android_gingerbread_mr1:0.1.0:18:13
+	android:launchMode
+		ADDED from com.github.rosjava.fl_eye:android_gingerbread_mr1:0.1.0:20:13

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_dark"
+    android:id="@+id/big_view">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="896dp"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:id="@+id/header" >
+
+            <!--<org.ros.android.view.RosTextView-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+                <!--android:text="Battery : -1%"-->
+                <!--android:id="@+id/rosTextView_batteryPercent"-->
+                <!--android:layout_alignParentRight="true" />-->
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="66dp"
+            android:id="@+id/footer"
+            android:layout_alignParentBottom="true" >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/button_gallery"
+                android:src="@drawable/gallery_120x120"
+                android:layout_gravity="center_vertical"
+                android:onClick="galleryButtonClicked"
+                android:layout_alignParentLeft="true" />
+
+            <org.ros.android.view.RosButton
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/takeoff_120x120"
+                android:id="@+id/button_takeoff_land_emergency"
+                android:background="@android:color/transparent"
+                android:layout_toRightOf="@id/button_gallery"
+                android:layout_centerVertical="true" />
+
+            <org.ros.android.view.RosScreenShotButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/button_shoot"
+                android:src="@drawable/shoot_120x120"
+                android:background="@android:color/transparent"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+
+            <org.ros.android.view.RosButton
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:visibility="invisible"
+                android:src="@drawable/start_120x120"
+                android:id="@+id/button_zigzag"
+                android:background="@android:color/transparent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+
+            <org.ros.android.view.RosButton
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:visibility="invisible"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pano_120x120"
+                android:id="@+id/button_pano"
+                android:background="@android:color/transparent"
+                android:layout_toLeftOf="@id/button_zigzag"
+                android:layout_centerVertical="true" />
+
+            <org.ros.android.view.RosButton
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:visibility="invisible"
+                android:scaleType="centerCrop"
+                android:src="@drawable/orbit_120x120"
+                android:id="@+id/button_orbit"
+                android:background="@android:color/transparent"
+                android:layout_toLeftOf="@id/button_pano"
+                android:layout_centerVertical="true" />
+
+        </RelativeLayout>
+
+        <org.ros.android.view.RosHybridImageView
+            android:layout_width="896dp"
+            android:layout_height="504dp"
+            android:src="@drawable/ic_launcher"
+            android:id="@+id/image"
+            android:layout_below="@+id/header"
+            android:layout_above="@+id/footer" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

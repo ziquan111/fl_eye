@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_dark">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="896dp"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:id="@+id/header" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Gallery > "
+                android:id="@+id/galleryHeader"
+                android:onClick="galleryHeaderOnClicked"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/photoHeader"
+                android:layout_toRightOf="@id/galleryHeader"/>
+
+            <!--<org.ros.android.view.RosTextView-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+                <!--android:text="Battery : -1%"-->
+                <!--android:id="@+id/rosTextView_batteryPercent"-->
+                <!--android:layout_alignParentRight="true" />-->
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="66dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/footer" >
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/rosImageView_controlMode"
+                android:src="@drawable/ic_launcher"
+                android:layout_gravity="center_horizontal"
+                android:clickable="true"
+                android:onClick="controlModeClicked"
+                android:layout_alignParentLeft="true" />
+
+            <org.ros.android.view.RosButton
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/button_takeoff_land_emergency"
+                android:background="@android:color/transparent"
+                android:layout_toRightOf="@+id/rosImageView_controlMode" />
+
+            <org.ros.android.view.RosRetakeButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/button_restore"
+                android:src="@drawable/restore_120x120"
+                android:background="@android:color/transparent"
+                android:layout_centerInParent="true" />
+
+            <!--<org.ros.android.view.RosButton-->
+            <!--style="?android:attr/buttonStyleSmall"-->
+            <!--android:layout_width="66dp"-->
+            <!--android:layout_height="66dp"-->
+            <!--android:text="Retake"-->
+            <!--android:id="@+id/button_start_stop"-->
+            <!--android:background="@color/green"-->
+            <!--android:layout_alignParentRight="true" />-->
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/photo"
+            android:layout_below="@+id/header"
+            android:layout_above="@+id/footer" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+<!-- From: file:/home/ziquan/catkin_ws/src/fl_eye/fl_eye/src/main/res/layout/photo.xml -->

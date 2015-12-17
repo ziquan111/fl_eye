@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fl.eye</string>
+
+    <color name="yellow">#ffbf00</color>
+    <color name="green">#00cc00</color>
+    <color name="red">#cc0000</color>
+</resources>
